@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoiseManFX</title>
+    <!-- 【変更】海外のDTMユーザーが検索するキーワードをタイトルに追加 -->
+    <title>NoiseManFX | Windows VST3 Audio Plugins & Open Source DSP</title>
+    
+    <!-- 【追加】海外の検索結果に表示されるサイトの説明文（英語） -->
+    <meta name="description" content="Official site of NoiseManFX. Download 'NoiseManSpace' VST3 demo for Windows, or access the open-source C++ DSP code under the MIT license on GitHub.">
+    <meta name="robots" content="index, follow">
+    
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        /* 背景を黒（#000）、文字を白（#fff）に変更 */
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #000; color: #fff; }
         header { text-align: center; padding: 20px 0; }
         nav { text-align: center; margin-bottom: 20px; }
-        nav a { margin: 0 10px; text-decoration: none; color: #007bff; }
+        /* 黒背景で見やすくなるよう、リンクの色を明るい青に変更 */
+        nav a { margin: 0 10px; text-decoration: none; color: #00a2ff; }
         section { margin-bottom: 40px; }
         footer { text-align: center; font-size: 0.8em; color: #777; }
+        /* 本文内のリンク色も合わせて調整 */
+        section a { color: #00a2ff; }
+        
+        /* ロゴのサイズ調整用（ピンポイント追加） */
+        header img { max-width: 300px; width: 100%; height: auto; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>NoiseManFX</h1>
+        <!-- 【変更】検索ロボットが画像の意味を理解できるよう、alt属性にキーワードを設定 -->
+        <h1><img src="NoiseManFXLogo2.png" alt="NoiseManFX Official - Windows VST3 Audio Plugins"></h1>
     </header>
 
     <nav>
@@ -26,15 +40,18 @@
 
     <section id="about">
         <h2>About</h2>
-        <p>I am NoiseMan.
-I materialize and create the blueprints in my mind.
-This plugin is a VST3 for Windows only.
-I am releasing the code for the advancement of digital audio. Please feel free to modify and use it under the MIT license.</p>
+        <!-- 【変更】改行がブラウザ上で正しく反映されるよう <br> タグを追加 -->
+        <p>I am NoiseMan.<br>
+        I materialize and create the blueprints in my mind.<br>
+        This plugin is a VST3 for Windows only.<br>
+        I am releasing the code for the advancement of digital audio. Please feel free to modify and use it under the MIT license.</p>
     </section>
 
     <section id="menu">
         <h2>Menu</h2>
-        <p>Purchase here</p>
+        <p>Purchase here KVR Audio</p>
+        <a href="https://www.kvraudio.com/developer/noisemanfx">https://www.kvraudio.com/developer/noisemanfx</a>
+        <p>Purchase here GUMRord</p>
         <a href="https://noisemanfx.gumroad.com/">https://noisemanfx.gumroad.com/</a>
         <p>NoiseManSpaceDEMO　Free trial</p>
         <a href="https://github.com/NoiseManFX/NoiseManSpace">Demo version and source code</a>
